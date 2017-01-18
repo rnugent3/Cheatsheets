@@ -1,0 +1,82 @@
+This is my cheat sheet
+
+ls
+lists files and folers in a directory 
+
+cd "____"
+change directory to named folder
+
+cd ~ 
+change directory to home folder
+
+cd ..
+change directory to folder level one up 
+
+pwd 
+print working directory 
+
+cat "___"
+prints the stuff in a file
+
+echo "___"
+prints whatever you speak 
+
+partial file name + tab 
+completes the name of a file 
+
+up arrow 
+scrolls through previous commands 
+
+> redirect 
+directs one command into another, e.g. echo into make a file touch 
+
+touch foo.txt
+creates file named foo.txt
+touch always creates plain text file
+
+makedir folder1 
+creates file folder named folder1
+
+|
+pipe command---take the output of one command, use as input for another 
+
+wc
+word count
+
+w
+word
+
+c
+characters 
+
+so: wc -w counts words, wc -c counts characters (see explainshell.com)
+
+_____ man 
+gives any manual 
+
+also for help: explainshell.com
+
+rev 
+reverses the order of whatever of that thing 
+
+csv is plain text! can be manipulated from the command line. 
+
+Okay so here is what I just did: 
+cat nypl_items.csv | uniq > unique_library.txt
+and that produced a new txt file with all the unique items in the csv file. Then I checked how many unique items are in the file to see if I did it correctly:
+cat unique_library.txt | wc -l
+and I found 99999 items. 
+
+REGULAR EXPRESSION SEARCH STUFF
+grep
+this thing counts stuff, too
+"globally search regular expression print"
+
+file | grep -i "paris"
+give all the LINES (hence -l) in the file that have paris (there are 191)
+the -i flag makes the command ignore capitalization 
+or add | wc -l 
+and count them! 
+61 entries have the word GAY!!!
+
+
