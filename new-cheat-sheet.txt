@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> redirect 
+This is my cheat sheet
+_____ man 
+c
+cat "___"
+cd "____"
+cd ..
+cd ~ 
+change directory to folder level one up 
+change directory to home folder
+change directory to named folder
+characters 
+completes the name of a file 
+creates file folder named folder1
+creates file named foo.txt
+directs one command into another, e.g. echo into make a file touch 
+echo "___"
+gives any manual 
+lists files and folers in a directory 
+ls
+makedir folder1 
+partial file name + tab 
+pipe command---take the output of one command, use as input for another 
+print working directory 
+prints the stuff in a file
+prints whatever you speak 
+pwd 
+scrolls through previous commands 
+so: wc -w counts words, wc -c counts characters 
+touch always creates plain text file
+touch foo.txt
+up arrow 
+w
+wc
+word
+word count
+|
