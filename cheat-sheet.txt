@@ -79,4 +79,8 @@ or add | wc -l
 and count them! 
 61 entries have the word GAY!!!
 
+mv file folder 
+move a file into a new folder in same directory 
 
+mv file newfilename 
+rename file 
